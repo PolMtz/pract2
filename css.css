@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+}
+
+.todo{
+    background-color: rgba(255, 213, 0, 0.865);
+    border-color: rgb(71, 0, 195);
+    border-style: outset;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+.Registro {
+    width: 400px;
+    border: 5px solid blue;
+    background-color: orange;
+    padding: 20px;
+}
+
+.section {
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.identificacion {
+    background-color: pink;
+    border: 2px solid red;
+}
+
+.otros-datos {
+    width: auto;
+    text-align: left;
+    background-color: lightgreen;
+    border: 2px solid green;
+
+}
+
+.confirmar {
+    background-color: rgb(185, 3, 185);
+    border-color: rgb(71, 0, 195);
+    border-style: outset;
+    text-align: center;
+    padding: 10px;
+}
+
+h2, h4 {
+    color: darkred;
+}
+
+h3 {
+    color: rgb(71, 0, 195);
+}
+
+
+button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.comentarios textarea {
+    width: 250px; /* Ajusta el ancho al contenedor */
+    max-width: 350px; /* Máximo ancho permitido */
+    height: 80px; /* Altura inicial */
+    max-height: 200px; /* Altura máxima */
+}
+
+
+.ocupacion{
+    background-color: rgb(0, 255, 110);
+    border-color: rgb(0, 100, 10);
+    border-style: outset;
+    padding: 5px;
+}
+
+.genero{
+    background-color: rgb(0, 255, 110);
+    border-color: rgb(0, 100, 10);
+    border-style: outset;
+    padding: 5px;
+}
+
+.otros-generos{
+    padding: 10px;
+}
+
+.comentarios{
+    background-color: rgb(0, 255, 110);
+    border-color: rgb(0, 100, 10);
+    border-style: outset;
+    padding: 5px;
+}
+
+.reg {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}

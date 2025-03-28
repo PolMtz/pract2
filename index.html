@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de usuario</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="Registro">
+        <h2>Registrarse como usuario</h2>
+        <div class="section identificacion">
+            <h3>Identificación</h3>
+            <div class="reg">
+                <label for="apellido">Apellido:</label> 
+                <input type="text" id="apellido">
+            </div>
+            <div class="reg">
+                <label for="nombre">Nombre:</label> 
+                <input type="text" id="nombre">
+            </div>
+        </div>
+        
+        <div class="section otros-datos">
+            <h3>Otros datos</h3>
+            <div class="genero">
+                <h4>Género</h4>
+                <input type="radio" id="hombre" name="genero">
+                <label for="hombre">Hombre</label>
+                <input type="radio" id="mujer" name="genero">
+                <label for="mujer">Mujer</label>
+                <input type="radio" id="Helicoptero" name="genero">
+                <label for="Helicoptero">Helicoptero</label>
+            </div>
+            <div class="ocupacion">
+                <h4>Ocupación</h4>
+                <select>
+                    <option>-</option>
+                    <option>Profesor</option>
+                    <option>Estudiante</option>
+                    <option>Otro</option>
+                </select>
+            </div>
+            <div class="comentarios">
+                <h4>Comentarios</h4>
+                <textarea placeholder="Escriba aqui sus comentarios"></textarea>
+            </div>
+        </div>
+        <div class="section confirmar">
+            <h3>Confirmar/Rechazar</h3>
+            <button>Enviar</button>
+            <button>Cancelar</button>
+        </div>
+    </div>
+</body>
+</html>
